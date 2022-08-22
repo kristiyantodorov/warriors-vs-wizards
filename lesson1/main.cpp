@@ -29,6 +29,8 @@ private:
 int main() {
     cout << "Welcome to Warriors vs. Wizards!" << endl;
     Warrior warr;
-    cout << "I am a warrior and have " << warr.getHealth() << " HP" << endl;
+    Wizard wiz;
+    cout << "I am a warrior and I have " << warr.getHealth() << " HP" << endl;
+    cout << "I am a wizard and I have " << wiz.getHealth() << " HP" << endl;
     return 0;
 }
